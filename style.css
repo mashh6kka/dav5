@@ -1,0 +1,110 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(209, 222, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    color: #223157;
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.text{
+    color:#6f7faa;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 48px;
+    margin-right: 48px;
+    line-height: 26px;
+}
+h3{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #7784a8;
+}
+h5{
+    color: #22335e;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Red Hat Display'
+}
+.group{
+    margin-top: 20px;
+    height: 80px;
+    width: 355px;
+    border-radius: 11px;
+    background-color: #e6e9f1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.group2{
+    width: 48px;
+    height: 48px;
+    margin-left: 24px;
+}
+.annual{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.moneeey{
+    color:#717FA6;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.change{
+    color: #382AE1;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    margin-left: 68px;
+    text-decoration: underline;
+}
+.button1{
+    background-color: #382AE1;
+    height: 50px;
+    width: 354px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    margin-top: 25px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
